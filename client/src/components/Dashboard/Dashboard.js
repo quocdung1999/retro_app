@@ -139,7 +139,7 @@ export default function Dashboard() {
                                             <Button variant='outlined' size="small" color="primary" justify="flex-end"
                                                 onClick={() => {
 
-                                                    const link = window.location.origin+ '/api/board/' + current.boardId;
+                                                    const link = window.location.origin+ '/board/' + current.boardId;
                                                     var dummy = document.createElement("textarea");
                                                     document.body.appendChild(dummy);
                                                     //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
